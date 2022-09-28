@@ -16,7 +16,7 @@ public class AgesAndStages {
         Scanner scan = new Scanner(System.in);
         int age = scan.nextInt();
 
-        if (age>=0 || age<=4) {
+        if (age>=0 || age<=4) { // && this sign should be used in this statement be careful !!
             System.out.println("baby");
 
         }else if (age>=5 && age<=12){
